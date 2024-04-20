@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+	<changeSet author="prathamesh kulkarni" id="20220717">
+		<insert schemaName="directory_service_db" tableName="usr">
+			<column name="user_code" value="1" />
+			<column name="userId" value="2" />
+			<column name="username" value="Prathamesh" />
+			<column name="password" value="Test@123" />
+			<column name="email" value="prathameshkulkarni47@gmail.com" />
+			<column name="age" value="20" />
+		</insert>
+	</changeSet>
+	<changeSet author="prathamesh kulkarni" id="20220917">
+		<insert schemaName="directory_service_db" tableName="usr">
+			<column name="user_code" value="11" />
+			<column name="userId" value="22" />
+			<column name="username" value="ram" />
+			<column name="password" value="Test@1234" />
+			<column name="email" value="ramkulkarni47@gmail.com" />
+			<column name="age" value="20" />
+		</insert>
+	</changeSet>
+	<changeSet author="prathamesh kulkarni" id="20220817">
+		<insert schemaName="directory_service_db" tableName="usr">
+			<column name="user_code" value="111" />
+			<column name="userId" value="222" />
+			<column name="username" value="krishna" />
+			<column name="password" value="Test@1235" />
+			<column name="email" value="krishnakulkarni47@gmail.com" />
+			<column name="age" value="20" />
+		</insert>
+	</changeSet>
+</databaseChangeLog>
